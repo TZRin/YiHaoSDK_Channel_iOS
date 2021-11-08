@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/TZRin/YiHaoSDK_iOS.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/TZRin/YiHaoSDK_Channel_iOS.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "Framework/SDKResources.bundle"
   spec.resources = ['Framework/EAccountOpenPageResource.bundle','Framework/YHYXBundle.bundle']
- 
+
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
