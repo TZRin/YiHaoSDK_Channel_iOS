@@ -1,2 +1,2 @@
-# YiHaoSDK_Channel_iOS
-pods
+# YiHaoSDK_iOS
+一号sdk ios
