@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                    一号SDK_Channel
+                    一号SDK iOS v1 rel channel
                    DESC
 
-  spec.homepage     = "https://github.com/TZRin/YiHaoSDK_Channel_iOS.git"
+  spec.homepage     = "https://github.com/TZRin/YiHaoSDK_Channel_iOS"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "Framework/SDKResources.bundle"
   spec.resources = ['Framework/EAccountOpenPageResource.bundle','Framework/YHYXBundle.bundle']
-
+ 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -140,9 +140,9 @@ spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
 spec.vendored_frameworks = ['Framework/YiHaoSDKCore_Channel.framework','Framework/XMCommon.framework','Framework/XMGame.framework','Framework/XMLog.framework','Framework/YHYXGameFramework.framework']
 
 
-spec.dependency "AFNetworking"
-spec.dependency "SVProgressHUD"
-spec.dependency "MJExtension"
+spec.dependency "AFNetworking" 
+spec.dependency "SVProgressHUD" 
+spec.dependency "MJExtension" 
 spec.dependency "WechatOpenSDK"
 
 end
