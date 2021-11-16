@@ -188,25 +188,33 @@
 		<data>
 		BBqSUJ/S58qeH81DX2p/X5xZd3w=
 		</data>
-		<key>Headers/API_Channel.h</key>
-		<data>
-		wp5KI1AaSFqgMpDgdrPSW7E+tJU=
-		</data>
-		<key>Headers/SDKCore.h</key>
-		<data>
-		pojqH4ctjypLlgn4aGamNyNA/IY=
-		</data>
 		<key>Headers/YHSDKPurchaseChannelOrder.h</key>
 		<data>
 		QzzR+xwNRv8kMhqr/+MKU4H45L4=
 		</data>
-		<key>Headers/YHSDKReportInfo.h</key>
+		<key>Headers/YHSDKReportInfo_Channel.h</key>
 		<data>
-		KGFzLmOeAeHJp0gxQ59uUH42UnM=
+		WspasGvCauvUyf5aBmzx+P8uPMQ=
+		</data>
+		<key>Headers/YHSDKTypedef_Channel.h</key>
+		<data>
+		M0V/f6cD1/D1ptC+S4xG+23JvPY=
+		</data>
+		<key>Headers/YiHaoSDKCore_Channel.h</key>
+		<data>
+		GnlMT5+tEbU9vh1WIIxlFRyFQwM=
+		</data>
+		<key>Headers/YiHaoSDK_Channel.h</key>
+		<data>
+		HV00fSlctZ39LwN3tsPu9Dq4YB0=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		PHTIjTw7+oVLOWSZxH4yJWkXmvE=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		u7scuyLV5kGkbockyfvoM9P42aQ=
 		</data>
 		<key>YHYXBundle.bundle/MobileLogo@2x.png</key>
 		<data>
@@ -362,7 +370,11 @@
 		</data>
 		<key>YHYXBundle.bundle/yh_login_yk@2x.png</key>
 		<data>
-		yPSeWYBufET+KboZmCjGNOmVY4E=
+		p8Si6qHYR0MOfFcxe5PHjIcj+AU=
+		</data>
+		<key>YHYXBundle.bundle/yh_login_zh@2x.png</key>
+		<data>
+		q1qxoynCQUussXd0/PFb9CbPp84=
 		</data>
 		<key>YHYXBundle.bundle/yh_realname_icon@2x.png</key>
 		<data>
@@ -380,6 +392,14 @@
 		<data>
 		TYFDNKdaz+82kxB3pwolI57Vh2Q=
 		</data>
+		<key>YHYXBundle.bundle/yhyx_eye_nor@2x.png</key>
+		<data>
+		VrOIv4zRVM0rJrjDEzd5A+VBm04=
+		</data>
+		<key>YHYXBundle.bundle/yhyx_eye_sel@2x.png</key>
+		<data>
+		fcvIdKQDZx+57IXhYkWgJAB5fcI=
+		</data>
 		<key>YHYXBundle.bundle/yhyx_rt_arrow@2x.png</key>
 		<data>
 		cXG+Qobg5z0kpyuTnUq0E2667ac=
@@ -394,7 +414,7 @@
 		</data>
 		<key>build-universal-framework.sh</key>
 		<data>
-		YdYx9+XoUCVwonkb7SjkbWZwsxQ=
+		iufWbzgsTurpnU8rEORSnoIqQhY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -905,28 +925,6 @@
 			thUqMlD5/xwUm2fCIF6DHtye9F9B0HeJC7uJrFtB6xQ=
 			</data>
 		</dict>
-		<key>Headers/API_Channel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wp5KI1AaSFqgMpDgdrPSW7E+tJU=
-			</data>
-			<key>hash2</key>
-			<data>
-			1MKStwP2AwxoYV28vaBsqQ+Zv0cmv8n4/9WJvADq/1c=
-			</data>
-		</dict>
-		<key>Headers/SDKCore.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pojqH4ctjypLlgn4aGamNyNA/IY=
-			</data>
-			<key>hash2</key>
-			<data>
-			AulyQcY2qPQTtyV1ciFcRzP7E1nk7IbrK2JguVsqhM4=
-			</data>
-		</dict>
 		<key>Headers/YHSDKPurchaseChannelOrder.h</key>
 		<dict>
 			<key>hash</key>
@@ -938,15 +936,59 @@
 			FYaRHuc0Pyy1SqqqSX+8lJlTQ9dQkdVIEGe9LlYHRE8=
 			</data>
 		</dict>
-		<key>Headers/YHSDKReportInfo.h</key>
+		<key>Headers/YHSDKReportInfo_Channel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KGFzLmOeAeHJp0gxQ59uUH42UnM=
+			WspasGvCauvUyf5aBmzx+P8uPMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			i+X8fk6MrXLxvpW+QBfjqWkrWjv7k93OWKZeFnEUoSU=
+			hk4VNXqi3rCWFOYtJENkJkw8RkJ7sEjMRvnprv0FfdM=
+			</data>
+		</dict>
+		<key>Headers/YHSDKTypedef_Channel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M0V/f6cD1/D1ptC+S4xG+23JvPY=
+			</data>
+			<key>hash2</key>
+			<data>
+			qQTiW1tCJ34N6c+zI1uyj3RdewPUHRZ5xIiUhO0oquw=
+			</data>
+		</dict>
+		<key>Headers/YiHaoSDKCore_Channel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GnlMT5+tEbU9vh1WIIxlFRyFQwM=
+			</data>
+			<key>hash2</key>
+			<data>
+			DXyjdczDtdm3evlfOLDmjd4tF8dPXimDtM5WnpGsDWY=
+			</data>
+		</dict>
+		<key>Headers/YiHaoSDK_Channel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HV00fSlctZ39LwN3tsPu9Dq4YB0=
+			</data>
+			<key>hash2</key>
+			<data>
+			+5yWGFem3xdnHUJtcl0U59IbYBXRIbgj15YKiUeNGC8=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u7scuyLV5kGkbockyfvoM9P42aQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			3vUatIzykI0ityn/sZc/GM14MS5gyY0c5vjVsA2Scl4=
 			</data>
 		</dict>
 		<key>YHYXBundle.bundle/MobileLogo@2x.png</key>
@@ -1371,11 +1413,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yPSeWYBufET+KboZmCjGNOmVY4E=
+			p8Si6qHYR0MOfFcxe5PHjIcj+AU=
 			</data>
 			<key>hash2</key>
 			<data>
-			r21W0kI3CmT2ngMhgQeK/d5AldVeGNjIrcijceWi2wg=
+			0L+bSEFppgJvZh8sIUXyGFpR2T9H9iv8tuW27raYc0U=
+			</data>
+		</dict>
+		<key>YHYXBundle.bundle/yh_login_zh@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q1qxoynCQUussXd0/PFb9CbPp84=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xhz3IKy/kguFXh4l9hMvi2QMkl7yk06SQEAr0wvdQ0E=
 			</data>
 		</dict>
 		<key>YHYXBundle.bundle/yh_realname_icon@2x.png</key>
@@ -1422,6 +1475,28 @@
 			beEKbTnEL5Ficv2F0DZw+86XHEugpQg2ePSvr2Mvog0=
 			</data>
 		</dict>
+		<key>YHYXBundle.bundle/yhyx_eye_nor@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VrOIv4zRVM0rJrjDEzd5A+VBm04=
+			</data>
+			<key>hash2</key>
+			<data>
+			Fx2InExI9w7t9HdAsSZDapB+J58bcM6hJCud4vfvdLk=
+			</data>
+		</dict>
+		<key>YHYXBundle.bundle/yhyx_eye_sel@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fcvIdKQDZx+57IXhYkWgJAB5fcI=
+			</data>
+			<key>hash2</key>
+			<data>
+			OzHVznJdFG3IEyZtcfCRj9xkElP8u7Y6GuGzPZZbqYc=
+			</data>
+		</dict>
 		<key>YHYXBundle.bundle/yhyx_rt_arrow@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -1459,11 +1534,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YdYx9+XoUCVwonkb7SjkbWZwsxQ=
+			iufWbzgsTurpnU8rEORSnoIqQhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qRfJO1FgXFbNOxhECE/JVCmRtekmWTQn9R7lv7rpH/0=
+			/aDPPc20L9KaI7qYqHRdrUoyINXjZOz8wNtpA99qiAw=
 			</data>
 		</dict>
 	</dict>
