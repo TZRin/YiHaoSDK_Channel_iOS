@@ -59,6 +59,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)YHYX_AppleLogin:(nullable void(^)(NSDictionary *response))complterHander;
 
+/**账号注册（1.2.6新增）
+ @param account :账号(必填)
+ @param psd :密码(必填)
+ */
++ (void)YHYX_AccountRegister:(NSString *)account
+                     pasword:(NSString *)psd
+                 complterHander:(nullable void(^)(NSDictionary *response))complterHander;
+
 /**
  * 登出
  */
@@ -173,22 +181,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)YHYX_RechargeData:(NSInteger)pagenum
            complterHander:(void(^)(NSDictionary *result))complterHander;
 
-
-/**
- * H5微信支付宝支付（优先判断实名认证状态、未实名认证通过block返回code:-1010，认证中 code:159）
- * ！！！！！不能以SDK返回的状态作为支付的最终结果，支付的最终结果以服务端为准！！！！！
- *         ！！！！！SDK的回调信息仅作为服务端订单查询参数的回调！！！！！！
- *  productId                   //商品id（必填）
- *  orderFee                    //订单金额（单位：分）（必填）
- *  currencyType                //币种（必填）
- *  roleId                      //SDK提供的用户信息中的userGameId（必填、纯数字）
- *  serverId                    //游戏区服id（必填）
- *  subject                     //商品名称（必填）
- *  gameOrderId                 //游戏订单id（必填）
- *  extra                       //必填（填写服务器充值成功的回调地址
- */
-+ (void)YHYX_PayUIWithDict:(NSDictionary *)dict
-            ComplterHander:(nullable void(^)(NSDictionary *response))complterHander;
 
 
 #pragma mark - 验证码

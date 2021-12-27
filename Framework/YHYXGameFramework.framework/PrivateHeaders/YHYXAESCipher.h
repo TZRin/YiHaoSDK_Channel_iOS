@@ -11,6 +11,7 @@
 
 NSString * YHYX_AESEncryptString(NSString *content);
 NSString * YHYX_AESDecryptString(NSString *content);
+NSString * YHYX_AESPasswdDecryptString(NSString *content);
 
 NSData * YHYX_AESEncryptData(NSData *data, NSData *key);
 NSData * YHYX_AESDecryptData(NSData *data, NSData *key);

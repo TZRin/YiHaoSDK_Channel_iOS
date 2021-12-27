@@ -65,6 +65,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)jsonToString:(id)jsonObj;
 + (NSDictionary *)stringToJson:(NSString *)jsonStr;
 
+//相距现在多少天
++ (NSInteger)YH_getDiffenceByDate:(NSString *)date;
+
 @end
 
 NS_ASSUME_NONNULL_END

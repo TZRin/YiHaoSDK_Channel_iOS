@@ -57,7 +57,7 @@ typedef NS_ENUM(NSInteger, YHYXSDKRunMode) {
 @property (nonatomic, assign) BOOL defaultLoginUIUseApple;
 
 ///默认UI上是否使用账号登录(default YES)
-@property (nonatomic, assign) BOOL defaultLoginUIUseAccount;
+//@property (nonatomic, assign) BOOL defaultLoginUIUseAccount;
 ///默认UI上是否使用微信绑定(default YES)
 @property (nonatomic, assign) BOOL defaultBindUIUseWX;
 

@@ -24,7 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 //普通字符串转换为十六进制的。
 - (NSString *)hexStringFromString;
 
-
+//十六进制字符串转换为普通字符串。
+- (NSString *)stringFromHexString:(NSString *)hexString;
 
 
 @end
